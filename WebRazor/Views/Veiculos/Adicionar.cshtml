@@ -1,0 +1,37 @@
+﻿<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<form action="/veiculos/salvar" method="post">
+    <div>
+        <label for="nome" class="form-label">Marca:</label>
+        <input type="text" class="form-control" id="nome" name="nome" />
+    </div>
+    <div>
+        <label for="modelo" class="form-label">Modelo:</label>
+        <input type="text" class="form-control" id="modelo" name="modelo" />
+    </div>
+    <div>
+        <label for="fabricacao" class="form-label">Ano:</label>
+        <input type="text" class="form-control" id="fabricacao" name="fabricacao" />
+    </div>
+    <div>
+        <label for="cor" class="form-label">Cor:</label>
+        <input type="text" class="form-control" id="cor" name="cor" />
+    </div>
+    <div>
+        <label for="combustivel" class="form-label">Combustivel:</label>
+        <input type="text" class="form-control" id="combustivel" name="combustivel" />
+    </div>
+    <div>
+        <label for="automatico" class="form-label">Automático:</label>
+        <input type="text" class="form-control" id="automatico" name="automatico" />
+    </div>
+    <div>
+        <label for="valor" class="form-label">Valor:</label>
+        <input type="text" class="form-control" id="valor" name="valor" />
+    </div>
+    <br />
+    <div class="button">
+        <button type="submit" class="btn btn-primary btn-lg">Salvar</button>
+    </div>
+</form>
